@@ -1,0 +1,25 @@
+.prefo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.prefo11{
+    margin-top: 25px ;
+}
+
+
+/* .prefogeral{
+    
+}  */
+.prefogeral h2{
+    color: rgb(12, 12, 213);
+}
+
+.prefogeral ul li{
+    list-style: none;
+    margin-top: 15px;
+    color: rgb(33, 106, 233);
+    
+}

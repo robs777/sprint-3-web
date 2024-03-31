@@ -1,0 +1,104 @@
+/* ENTREGUE SUCESSO */
+
+.entregue{
+    display: flex;
+    justify-content: center;
+    
+
+
+
+}
+
+.entreguecoluna{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 20px;
+    width: 750px;
+    
+    
+
+}
+
+.entreguecoluna h1{
+    font-size: 48px;
+    color: rgb(12, 12, 213);
+    
+
+}
+.butcabeca1{
+    font-size: 24px;
+    background-color: rgb(12, 12, 213);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.butcabeca2{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(12, 12, 213);
+    color:rgb(12, 12, 213);
+    background-color: white;
+}
+
+.but{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+/* NOSSOS SERVIÇOS */
+
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(12, 12, 213);
+    font-size: 24px;
+}
+
+.boxes{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+   
+    
+}
+.boxes p{
+    font-size: 24px;
+    color: rgb(35, 35, 223);
+    margin-bottom: 50px;
+    display: flex;
+    height: 100px;
+    
+
+}
+.boxes a{
+    font-size: 24px;
+    
+    color: rgb(0, 0, 255);
+}
+
+.tamanimg{
+    width: 300px;
+    height: 200px;
+    
+
+}
+
+.separa{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}

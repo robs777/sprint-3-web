@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    
+    
+}
+.modosbut{
+    display: flex;
+    gap: 40px;
+   
+
+}
+
+.modosbutt{
+    padding: 10px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+
+}
+
+
+
+.logoimg{
+    height: 50px;
+}
+
+.butlogin{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    
+
+}
+.butTeste{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    
+}

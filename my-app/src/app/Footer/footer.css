@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    background-color: rgb(12, 12, 213);
+    color: white;
+    margin-top: 25px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+   
+
+}
+
+.futbut{
+    width: 200px;
+    height: 50px;
+    margin: 25px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(12, 12, 213);
+    border: 2px solid white;
+    
+}
+.link{
+    margin-top: 15px;
+}
+.link ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
