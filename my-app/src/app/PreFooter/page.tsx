@@ -17,7 +17,9 @@ const PreFooter = () => {
         <>
          <div className="prefo">
             <section>
+                <div className="mediaimg">
                 <Link href="/"><Image src={salesforcelogo} alt="" className="logoimg"/></Link>
+                </div>
                 <div className="prefo11">
                     <Image src={face} alt="" className="tes"/>
                     <Image src={x} alt="" className="tes"/>
@@ -25,7 +27,9 @@ const PreFooter = () => {
                     <Image src={insta} alt="" className="tes"/>
                     <Image src={youtube} alt="" className="tes"/>
                 </div>
+                <div className="centrop">
                 <p>Entre em contato 0800 891 1887</p>
+                </div>
             </section>
             <section className="prefogeral">
                 <h2>Ainda não conhece a SalesForce?</h2>

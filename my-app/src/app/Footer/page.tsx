@@ -10,10 +10,12 @@ const Footer = () => {
                 <section className="footer">
                     <button className="futbut">Mudar de região</button>
                     <div className="footer1">
+                        <div className="textop">
                         <p>© Copyright 2023 Salesforce, Inc. Todos os direitos reservados. As diversas marcas comerciais
                             pertencem a
                             seus respectivos proprietários. Salesforce Brasil, Av. Jornalista Roberto Marinho, 85 - 14º andar -
                             Cidade Monções, São Paulo - SP, 04575-000 Brasil.</p>
+                            </div>
                         <div className="link">
                             <nav>
                                 <ul>

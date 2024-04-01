@@ -12,9 +12,6 @@
 }
 
 
-/* .prefogeral{
-    
-}  */
 
 .tes{
     
@@ -22,7 +19,7 @@
 
 }
 .prefogeral h2{
-    color: rgb(12, 12, 213);
+    color: rgb(9, 21, 94);
 }
 
 .prefogeral ul li{
@@ -30,4 +27,84 @@
     margin-top: 15px;
     color: rgb(33, 106, 233);
     
+}
+
+
+@media (max-width:480px){
+
+    /* PRE FOOTER */
+
+.prefo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 50px;
+    
+    
+}
+.logoimg{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.mediaimg{
+    display: flex;
+    justify-content: center;
+    
+}
+.centrop{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    
+}
+.logos p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.prefo11{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    
+}
+.prefogeral{
+    margin-top: 20px;
+    
+}
+.prefogeral h2{
+    color: rgb(9, 21, 94);
+    display: flex;
+    justify-content: center;
+}
+
+
+.prefogeral ul li{
+    list-style: none;
+    margin-top: 15px;
+    color: rgb(33, 106, 233);
+    
+}
+
+
+.prefogeral ul li a{
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+
 }

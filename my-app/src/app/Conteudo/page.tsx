@@ -30,7 +30,9 @@ const Conteudo = () => {
                     <button className="butcabeca2">Saiba mais</button>
                 </div>
             </div>
-            <Image src={mulher} alt=""/>
+            <div className="imul">
+            <Image src={mulher} alt="" />
+            </div>
         </section>
 
         {/* <!-- NOSSOS SERVIÇOS --> */}
@@ -51,7 +53,7 @@ const Conteudo = () => {
             <section className="boxes">
                 <Image src={homem} alt="" className="tamanimg"/>
                 <p>Pagina inicial mostra os icones com suas funcionalidades.</p>
-                <Link href="">Experimente Link Acessibilidade</Link >
+                <Link href="">Experimente Acessibilidade</Link >
             </section>
         </div>
         <div className="separa">

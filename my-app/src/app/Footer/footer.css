@@ -34,4 +34,69 @@
     gap: 50px;
    
 }
+.link ul li a{
+    color: white;
+}
 
+
+
+@media (max-width:480px){
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(12, 12, 213);
+        color: white;
+        margin-top: 25px;
+       
+    }
+    
+    .footer1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        justify-content: center;
+        justify-items: center;
+        width: 450px;
+        
+       
+    
+    }
+    
+    .textop{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        margin-left: 100px;
+    }
+    .futbut{
+        margin: auto;
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(12, 12, 213);
+        border: 2px solid white;
+        margin-top: 10px;
+       
+        
+    }
+    .link{
+        margin-top: 15px;
+    }
+    .link ul{
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        
+    }
+
+    .link ul li a{
+        color: white;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+   
+
+}

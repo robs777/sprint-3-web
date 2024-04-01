@@ -47,6 +47,7 @@
 .but{
     display: flex;
     gap: 20px;
+    
 }
 
 
@@ -105,55 +106,7 @@
 
 @media (max-width:480px){
     
-    .cabecalho{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        
-        
-        
-    }
-    .modosbut{
-        display: flex;
-        gap: 5px;
-       
-    
-    }
-    
-    .modosbutt{
-        padding: 5px;
-        border: none;
-        background-color: white;
-        font-size: 16px;
-    
-    }
-    
-    
-    
-    .logoimg{
-        height: 50px;
-    }
-    
-    .butlogin{
-        background-color: white;
-        border: none;
-        padding: 5px;
-        font-size: 16px;
-        
-    
-    }
-    .butTeste{
-        background-color: green;
-        padding: 3px;
-        color: white;
-        font-size: 16px;
-        border: none;
-        border-radius: 5px;
-        
-    }
-
-
-
+  
     .entregue{
         display: flex;
         justify-content: center;
@@ -171,8 +124,7 @@
         font-size: 24px;
         gap: 20px;
         width: 450px;
-        
-        
+       
     
     }
 
@@ -203,6 +155,19 @@
         background-color: white;
     }
 
+
+    .but{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .imul{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    
 
     /* NOSSOS SERVIÇOS */
 
@@ -262,103 +227,19 @@
     margin-top: 30px;
 }
 
-
-/* PRE FOOTER */
-
-.prefo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    margin: 50px;
-    
-    
-}
-.logoimg{
-    width: 100px;
-    height: 100px;
-    margin: auto;
-}
-.logos {
-    display: flex;
-    flex-direction: column;
-    
-}
-.logos p{
+.separa .boxes a{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    
 }
 
-.prefo11{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    gap: 10px;
-    
-}
-.prefogeral{
-    margin-top: 20px;
-    
-}
-.prefogeral h2{
-    color: rgb(12, 12, 213);
-}
-
-.prefogeral ul li{
-    list-style: none;
-    margin-top: 15px;
-    color: rgb(33, 106, 233);
-    
+.pcabeca{
+    width: 350px;
+    margin-left: 50px;
 }
 
 
-/* FOOTER */
 
 
-.footer{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(12, 12, 213);
-    color: white;
-    margin-top: 25px;
-   
-}
-
-.footer1{
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    justify-content: center;
-    justify-items: center;
-    width: 450px;
-    
-   
-
-}
-
-.futbut{
-    margin: auto;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(12, 12, 213);
-    border: 2px solid white;
-    margin-top: 10px;
-   
-    
-}
-.link{
-    margin-top: 15px;
-}
-.link ul{
-    list-style: none;
-    display: flex;
-    gap: 50px;
-    flex-direction: column;
-    margin: auto;
-}
 
 }
 
