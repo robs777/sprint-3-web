@@ -17,7 +17,7 @@ const PreFooter = () => {
         <>
          <div className="prefo">
             <section>
-                <Link href=""><Image src={salesforcelogo} alt="" className="logoimg"/></Link>
+                <Link href="/"><Image src={salesforcelogo} alt="" className="logoimg"/></Link>
                 <div className="prefo11">
                     <Image src={face} alt="" className="tes"/>
                     <Image src={x} alt="" className="tes"/>
