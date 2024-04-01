@@ -89,6 +89,10 @@
     
     color: rgb(0, 0, 255);
 }
+.separa .boxes a{
+    display: flex;
+    justify-content: center;
+}
 
 .tamanimg{
     width: 300px;

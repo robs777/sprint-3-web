@@ -18,8 +18,13 @@
     margin: 5px;
 
 }
+.prefogeral{
+    margin-right: 70px;
+}
 .prefogeral h2{
     color: rgb(9, 21, 94);
+    display: flex;
+    justify-content: center;
 }
 
 .prefogeral ul li{
@@ -27,6 +32,11 @@
     margin-top: 15px;
     color: rgb(33, 106, 233);
     
+}
+.prefogeral ul li a{
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
 }
 
 
@@ -83,6 +93,7 @@
 }
 .prefogeral{
     margin-top: 20px;
+    margin-right: 0px;
     
 }
 .prefogeral h2{
