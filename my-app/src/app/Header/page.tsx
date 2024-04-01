@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 import salesforcelogo from "../Assets/img/salesforcelogo.svg"
 
@@ -9,7 +10,7 @@ const Header = () => {
         <>
          <header>
     <div className="cabecalho">
-        <Image src={salesforcelogo} alt="" className="logoimg"/>
+        <Link href="/"><Image src={salesforcelogo} alt="" className="logoimg"/></Link>
         <div className="modosbut">
             <button className="modosbutt">Modo baixa Visao</button>
 

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(47, 47, 255);
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+
+
+.alunos{
+    display: flex;
+    flex-direction: column;
+    color: rgb(47, 47, 255);
+    font-size: 24px;
+    background-color: rgb(207, 255, 215);
+    height: 850px;
+}
+.alunos h2{
+    margin: 0 15px;
+}
+
+.sep{
+    display: flex;
+   justify-content: center;
+   align-items: center;  
+}
+
+.box{
+    background-color: rgb(99, 143, 246);
+    padding: 50px;
+    width: 300px;
+    height: 500px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 5px solid white;
+   
+    
+}
+.box p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 10px;
+    
+    
+
+}
+.box a{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    
+    color: rgb(255, 255, 255);
+}
+
+.tamanim{
+    width: 300px;
+    height: 300px;
+    border: 3px solid white;
+    
+
+}
+
+.sep{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
