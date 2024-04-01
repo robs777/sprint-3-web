@@ -4,7 +4,7 @@ import glen from "../Assets/img/glen.png"
 import rob from "../Assets/img/rob.png"
 import tal from "../Assets/img/tal.png"
 import './alunos.css'
-
+import PreFooter from "../PreFooter/page"
 const Alunos = () => {
     return (
       <>
@@ -36,6 +36,8 @@ const Alunos = () => {
     </section>
 </div>
 </div>
+
+<PreFooter />
 </>
 )
 }

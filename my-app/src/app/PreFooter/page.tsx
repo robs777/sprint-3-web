@@ -18,11 +18,11 @@ const PreFooter = () => {
             <section>
                 <Image src={salesforcelogo} alt="" className="logoimg"/>
                 <div className="prefo11">
-                    <Image src={face} alt=""/>
-                    <Image src={x} alt=""/>
-                    <Image src={lin} alt=""/>
-                    <Image src={insta} alt=""/>
-                    <Image src={youtube} alt=""/>
+                    <Image src={face} alt="" className="tes"/>
+                    <Image src={x} alt="" className="tes"/>
+                    <Image src={lin} alt=""className="tes"/>
+                    <Image src={insta} alt="" className="tes"/>
+                    <Image src={youtube} alt="" className="tes"/>
                 </div>
                 <p>Entre em contato 0800 891 1887</p>
             </section>

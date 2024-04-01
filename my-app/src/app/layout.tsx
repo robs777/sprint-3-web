@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import Header from "./Header/page"
 
 import Footer from "./Footer/page"
+
+import PreFooter from "./PreFooter/page";
 // import { Inter } from "next/font/google";
 // import "./globals.css";
 
@@ -23,6 +25,7 @@ export default function RootLayout({
       <body>
       <Header />
         {children}
+        
       <Footer />
 
       </body>
