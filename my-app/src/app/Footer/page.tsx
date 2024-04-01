@@ -17,13 +17,13 @@ const Footer = () => {
                         <div className="link">
                             <nav>
                                 <ul>
-                                    <li>Legal</li>
-                                    <li>Termos de serviços</li>
-                                    <li>Declaração de privacidade</li>
-                                    <li>Divulgação responsável</li>
-                                    <li>Segurança</li>
-                                    <li>Contato</li>
-                                    <li>Preferências de cookies</li>
+                                    <li><Link href="#">Legal </Link></li>
+                                    <li><Link href="#">Termos de serviços </Link></li>
+                                    <li><Link href="#">Declaração de privacidade </Link></li>
+                                    <li><Link href="#">Divulgação responsável </Link></li>
+                                    <li><Link href="#">Segurança </Link></li>
+                                    <li><Link href="#">Contato </Link></li>
+                                    <li><Link href="#">Preferências de cookies </Link></li>
                                 </ul>
                             </nav>
                         </div>
