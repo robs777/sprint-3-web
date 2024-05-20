@@ -1,0 +1,43 @@
+
+  
+  .container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 500px;
+  }
+  
+  table {
+    width: 100%;
+    
+   
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .funcB button{
+    background-color: #31bdec; 
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 255);
+  }
+  
+  .funcB button:hover {
+    background-color: #2198b6;
+  }
+
+ 
